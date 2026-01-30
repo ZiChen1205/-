@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoPulse Global - 國際新能源周報</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-color: #0052cc;
+        --secondary-color: #e6f0ff;
+        --bg-color: #ffffff;
+        --text-color: #172b4d;
+        --text-muted: #6b778c;
+        --border-color: #dfe1e6;
+        --accent-color: #0065ff;
+      }
+      body {
+        font-family: 'Noto Sans TC', sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
+      .bg-primary { background-color: var(--primary-color); }
+      .text-primary { color: var(--primary-color); }
+      .bg-secondary { background-color: var(--secondary-color); }
+      .border-primary { border-color: var(--primary-color); }
+      .border-standard { border-color: var(--border-color); }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
